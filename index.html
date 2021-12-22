@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam fitness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" rel="stylesheet">">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Baloo Bhai 2', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/people-2604149_1920.jpg');
+        }
+
+        .left {
+            display: inline-block;
+            border: 2px;
+            position: absolute;
+            left: 14px;
+            top: 14px;
+        }
+
+        .left img {
+            width: 100px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            line-height: 19px;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 50%;
+            margin: 1px auto;
+            
+        }
+
+        .right {
+            position: absolute;
+            right: 0px;
+            top: 4px;
+            display: inline-block;
+            
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 20px 10px;
+        }
+
+        .navbar li a:hover,.navbar li a.active {
+            text-decoration: underline;
+            color: rgb(56, 51, 51);
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 34px 4px;
+            background-color: #e3b7b70d;
+            color: white;
+            padding: 5px 15px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .container {
+            font-family: 'Baloo Bhai 2', cursive;
+            border: 2px solid white;
+            margin: 87px 25px;
+            padding: 35px 39px;
+            width: 37%;
+            border-radius: 26px;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+
+        }
+        .container h1{
+                text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 103%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img\images.png" alt="">
+            <div>Shivam Fitness</div>
+        </div>
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Emal Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym Of Ballia</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="number" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="number" placeholder="Enter your Contact Number">
+            <button class="btn">Submit</button>
+        </form>
+             
+
+        
+    </div>
+
+</body>
+
+</html>
